@@ -1,0 +1,16 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blog preview card coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./style/html.css -o /main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "g": "^2.0.1",
+    "tailwindcss": "^4.1.4"
+  }
+}
