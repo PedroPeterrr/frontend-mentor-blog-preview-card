@@ -30,7 +30,7 @@ Mobile View 375px:
 ![image](https://github.com/user-attachments/assets/9a9b4dda-20c1-480a-ae83-83ae103a297c)
 
 ### Links
-- Live Site URL: (https://pedropeterrr.github.io/frontend-mentor-blog-preview-card/)
+- Live Site URL: [Live Site](https://pedropeterrr.github.io/frontend-mentor-blog-preview-card/)
 
 ## My process
 
@@ -50,4 +50,4 @@ Mobile View 375px:
 - I want to deepen my understanding of how CSS works, including more advanced features like media queries and responsive design. I’m also aiming to gain more in-depth knowledge of both CSS and HTML, and continue improving the foundation I already have.
 
 ## Author
-- Frontend Mentor -[@PedroPeterrr(https://www.frontendmentor.io/profile/PedroPeterrr)]
+- Frontend Mentor -[@PedroPeterrr](https://www.frontendmentor.io/profile/PedroPeterrr)
