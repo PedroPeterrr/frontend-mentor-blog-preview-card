@@ -3,9 +3,18 @@
     --main-gray: #111111;
     --secondary-gray: #6B6B6B;
     --white: #FFFFFF;
+}
 
-    --font-figtree-medium: Figtree-Medium, 'sans-serif';
-    --font-figtree-extrabold: Figtree-ExtraBold, 'sans-serif';
+@font-face {
+    font-family: Figtree-ExtraBold;
+    src: url('./../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    line-height: 150%;
+}
+
+@font-face {
+    font-family: Figtree-Medium;
+    src: url(./../assets/fonts/static/Figtree-Medium.ttf) format('truetype');
+    line-height: 150%;
 }
 
 *,
@@ -39,11 +48,14 @@ main {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     padding: 24px;
     border: 1px solid var(--main-gray);
     border-radius: 15px;
-    background-color: var(--white);
-    height: 522px;  
+    display: flex;
+    background-color: var(--white);  
     width: 384px;
     box-shadow:8px 8px 0 rgb(0,0,0);
 }
@@ -54,32 +66,33 @@ main {
 }
 
 .content {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin: 20px 0 20px 0;
 }
 
 .title {
     padding:  4px 12px;
     background-color: var(--main-color);    
-    border-radius: 2.5px;
-    width: 25%;
-    font-family: var(--font-figtree-extrabold) ;
+    border-radius: 4px;
+    font-family: Figtree-ExtraBold, sans-serif ;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 700;
     color: var(--main-gray);
     margin: 0;
+    width: fit-content;
+    line-height: 150%;
 }
 
 .date {
+    font-family: Figtree-Medium, sans-serif;
     font-size: 14px;
 }
 
 .sub-title {
+    font-family: Figtree-ExtraBold, sans-serif;
     font-size: 24px;
-    line-height: 150%;
+    font-weight: 700;
 }
 
 .sub-title:hover {
@@ -90,7 +103,7 @@ main {
     color: var(--secondary-gray);
     font-size: 16px;
     margin: 0;
-    font-family: var(--font-figtree-medium);
+    font-family: Figtree-Medium, sans-serif;
 }
 
 .icon-container {
@@ -103,8 +116,11 @@ main {
     height: 32px;
 }
 
-.name{ 
+span { 
     color: var(--main-gray);
+    font-family: Figtree-ExtraBold, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .attribution {
@@ -113,4 +129,29 @@ main {
 
 a {
     text-decoration: none;
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        max-width: 328px;
+        padding: 24px;
+    }
+
+    .illustration-article {
+        border-radius: 10px;
+    }
+
+    .title,
+    .date {
+        font-size: 12px;
+    }
+
+    .sub-title {
+        font-size: 20px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
 }
