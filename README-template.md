@@ -50,4 +50,4 @@ Mobile View 375px:
 - I want to deepen my understanding of how CSS works, including more advanced features like media queries and responsive design. I’m also aiming to gain more in-depth knowledge of both CSS and HTML, and continue improving the foundation I already have.
 
 ## Author
-- Frontend Mentor -@PedroPeterrr(https://www.frontendmentor.io/profile/PedroPeterrr)
+- Frontend Mentor -[@PedroPeterrr(https://www.frontendmentor.io/profile/PedroPeterrr)]
