@@ -22,9 +22,11 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Screenshot
 
 Desktop View:
+
 ![image](https://github.com/user-attachments/assets/90c4f905-e433-46cc-8557-ed59f98da937)
 
 Mobile View 375px:
+
 ![image](https://github.com/user-attachments/assets/9a9b4dda-20c1-480a-ae83-83ae103a297c)
 
 ### Links
@@ -48,4 +50,4 @@ Mobile View 375px:
 - I want to deepen my understanding of how CSS works, including more advanced features like media queries and responsive design. I’m also aiming to gain more in-depth knowledge of both CSS and HTML, and continue improving the foundation I already have.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor -@PedroPeterrr(https://www.frontendmentor.io/profile/PedroPeterrr)
