@@ -8,13 +8,11 @@
 @font-face {
     font-family: Figtree-ExtraBold;
     src: url('./../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
-    line-height: 150%;
 }
 
 @font-face {
     font-family: Figtree-Medium;
     src: url(./../assets/fonts/static/Figtree-Medium.ttf) format('truetype');
-    line-height: 150%;
 }
 
 *,
@@ -104,6 +102,7 @@ main {
     font-size: 16px;
     margin: 0;
     font-family: Figtree-Medium, sans-serif;
+    line-height: 150%;
 }
 
 .icon-container {
